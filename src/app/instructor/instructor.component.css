@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    padding: 5em;
+}
+img{
+    height: 35em;
+    width: 35em;
+}
+h2{
+    font-size: 40px;
+    line-height: 1.6;
+}
+.name{
+    color: #df7068;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    margin-right: 2em;
+}
+.ylw-txt{
+    color: Yellow;
+}
+
+.text-instructor{
+    color: #D6DADE;
+    font-weight: 470;
+    font-size: 35px;
+}
+p.text-white{
+    font-size: 17px;
+}
+@media screen and (max-width:700px) {
+    img{
+        height: 300px;
+        width: 300px;
+        margin: auto  ;
+    }
+}

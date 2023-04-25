@@ -1,0 +1,26 @@
+.footer{
+    background-color: #151515;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.social-icon {
+    border: 2px solid #868e96;
+    border-radius: 50%;
+    transition: all 0.5s;
+    width: 42px;
+    height: 42px;
+    display: block;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+}
+a{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+span:hover{
+    color: white;
+}

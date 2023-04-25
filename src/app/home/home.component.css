@@ -1,0 +1,85 @@
+#home{
+    padding: 100px 80px 100px;
+}
+
+.left-side{
+    float: left;
+}
+
+.container-fluid{
+    background-color: #151515;
+}
+#main{
+    margin-left: 10px;
+    padding: 10px 0px;
+}
+
+div{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.stock{
+    color: rgba(234, 234, 234, 1);
+    font-weight: 600;
+    font-size: 27px;
+}
+.guide{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 60px;
+}
+
+.subscriber{
+    font-weight: 600;
+    font-size: 23px;
+    background: linear-gradient(90deg, #FBC71D -8.76%, #F8AA23 49.19%, #A76A00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    height: 490px;
+    width: 520px;
+}
+
+p{
+font-weight: 500;
+font-size: 16px;
+color: #E8E8E8;
+max-width: 600px;
+}
+
+button{
+    padding: 12px 32px;
+    background: linear-gradient(90deg, #E37B5A -8.76%, #D75B7F 49.19%, #9F67A3 100%);
+    border-radius: 60px;
+    border: none;
+}
+
+.views{
+font-weight: 600;
+font-size: 16px;
+background: linear-gradient(90deg, #E37B5A -8.76%, #D75B7F 49.19%, #9F67A3 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 700px){
+    #main{
+        margin-left: 0px;
+    }
+    .guide{
+        font-size: xx-large;
+    }
+    .stock{
+        font-size: x-large;
+    }
+    img{
+        display: none;
+    }
+}

@@ -1,0 +1,40 @@
+.how-to-apply-container{
+    background: #272727;
+    padding-bottom: 10em;
+    padding-top: 4em;
+}
+.information{
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 24px;
+}
+.how-to-apply-text{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 54px;
+    color: #fff;
+}
+.medium-txt{
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #eaeaea;
+}
+.small-txt {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    color: #eaeaea;
+}
+.ylw-txt{
+    background: linear-gradient(90deg, #FBC71D -8.76%, #F8AA23 49.19%, #A76A00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.apply-img{
+    display: block;
+    height: 30em;
+}

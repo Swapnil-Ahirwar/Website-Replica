@@ -1,0 +1,86 @@
+.service-container{
+    background: #272727;
+    background-image: url(https://tusharghone.com/service.55255802d18de965.png);
+    background-size: 70vw;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    padding: 2em;
+}
+
+.services-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 25.6953px 5.80469px 24px;
+    width: 150px;
+    height: 40px;
+    background: rgba(255,255,255,.27);
+    border-radius: 25px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    margin-top: 100px;
+}
+span{
+    background: linear-gradient(90deg,#FBC71D -8.76%,#F8AA23 49.19%,#A76A00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    font-size: 17px;
+}
+.large-txt{
+    font-weight: 650;
+    font-size: 40px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.srvc-box {
+    background: #121212;
+    border-radius: 8px;
+    padding: 1.2em;
+    margin-bottom: 3em;
+}
+.srvc-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.srvc-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #d3c7e9;
+    justify-content: center;
+}
+.srvc-desc{
+    height: 7em;
+    overflow: hidden;
+    word-break: break-word;
+    text-overflow: ellipsis;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    color: #606060;
+}
+.srvc-footer{
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(90deg,#E37B5A -8.76%,#D75B7F 49.19%,#9F67A3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    justify-content: center;
+    cursor: pointer;
+}

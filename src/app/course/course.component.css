@@ -1,0 +1,117 @@
+#course{
+    background: #272727;
+    /* padding: 5em; */
+    padding-top: 7em;
+    padding-bottom: 5em;
+    margin-right: 1em;
+}
+
+.course-heading{
+    display: flex;
+    padding: 6px 25.6953px 5.80469px 24px;
+    width: 135px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 25px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.header{
+    background: linear-gradient(90deg, #FBC71D -8.76%, #F8AA23 49.19%, #A76A00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 16.2px;
+    font-family: "Mulish", sans-serif;
+}
+
+span.yllw-text{
+    background: linear-gradient(90deg, #FBC71D -8.76%, #F8AA23 49.19%, #A76A00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 16.2px;
+    font-family: "Mulish", sans-serif;
+}
+
+.large-txt{
+    font-weight: 600;
+    font-size: 40px;
+    color: #D6DADE;
+    text-align: center;
+}
+
+p{
+    font-size: 14.4px;
+    font-weight: 400;
+    color: #D6DADE;
+    text-align: center;
+    max-width: 550px;
+}
+
+.course-box{
+    background: #121212;
+    padding: 1.2em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    /* margin: 0px 20px; */
+    width: 21em;
+    height: 21em;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+span.pack{
+    color: white;
+    font-size: 12px;
+}
+
+.tag{
+    font-size: 11px;
+    color: #fff;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 5.5px 24.0781px 5.5px 25px;
+}
+
+img.icon{
+    height: 12px;
+    margin-right: 5px;
+    font-weight: 300;
+}
+
+.row{
+    margin: 0px 40px;
+}
+
+.course-footer{
+    background: linear-gradient(90deg, #FBC71D -8.76%, #F8AA23 49.19%, #A76A00 100%);
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    /* margin: 0px 20px; */
+    width: 21em;
+    height: 3em;
+}
+
+a{
+    color: #fff;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 700px) {
+    .row{
+        margin: 0px 0px;
+    }
+}

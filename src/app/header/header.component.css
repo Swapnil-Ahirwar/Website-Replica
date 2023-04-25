@@ -1,0 +1,124 @@
+/* nav{
+    background: #151515;
+    border-radius: 0px;
+    flex-basis: 100%;
+}
+.navbar-brand{
+    margin-left: 200px;
+}
+.div{
+    margin-left: 300px;
+}
+li{
+    margin-right: 18px;
+}
+@media screen and (max-width: 700px){
+    .navbar-brand{
+        margin-left: 0px;
+    }
+    .div{
+        margin-left: 10px;
+    }
+}
+#home{
+    background: linear-gradient(90deg, #E37B5A -8.76%, #D75B7F 49.19%, #9F67A3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration-line: underline;
+
+}
+
+.navbar-custom {
+    padding: 20px 0px;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+    margin-bottom: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+} */
+
+/* .navbar-brand {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .navbar-nav {
+    padding-left: 700px;
+  } */
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.navbar-brand{
+    margin-left: 70px;
+}
+.div{
+    margin-left: 300px;
+}
+li{
+    margin-right: 20px;
+    
+}
+
+/* @media screen and (max-width: 700px){
+    .navbar-brand{
+        margin-left: 0px;
+    }
+    .div{
+        margin-left: 10px;
+    }
+} */
+
+@media (min-width: 200px) and (max-width: 1024px){
+    .navbar-custom {
+        margin-top: 0px;
+        padding: 10px 0px !important;
+        color: #ffffff !important;
+        background: #1a1a1a;
+    }
+    .navbar-brand{
+        margin-left: 0px;
+    }
+    .div{
+        margin-left: 10px;
+    }
+    .navbar-toggler{
+        margin-left: 20px;
+    }
+}
+
+
+li.active{
+    background: linear-gradient(90deg, #E37B5A -8.76%, #D75B7F 49.19%, #9F67A3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#bar-name{
+    font-size: 16px;
+    font-weight: 500;
+    color: #9798A3;
+}  
+
+#bar-name:hover{
+    color: white;
+}
+
+span{
+    border: none;
+}

@@ -1,0 +1,61 @@
+<body>
+  <nav
+    class="navbar navbar-expand-sm bg-dark navbar-custom fixed-top sticky sticky-dark"
+    style="padding: 20px"
+  >
+    <div class="container">
+      <a class="navbar-brand" href="/" style="cursor: pointer;">
+        <img
+          class="img-fluid"
+          src="../assets/images/logo/logo-mt.png"
+          height="70px"
+          width="120px"
+          alt="logo"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#btn"
+      >
+        <span class="navbar-toggler-icon bg-light me-2"> </span>
+      </button>
+      <div
+        class="collapse navbar-collapse"
+        id="btn"
+        style="justify-content: end"
+      >
+        <ul class="navbar-nav ms-2 ps-2 navs" id="navbar-navlist">
+          <li class="nav-item active">
+            <a href="#" class="nav-link" [ngxScrollTo]="'#home'">Home</a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link"
+              id="bar-name"
+              [ngxScrollTo]="'#services'"
+              >Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" id="bar-name" [ngxScrollTo]="'#about-us'">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" id="bar-name" [ngxScrollTo]="'#course'">Course</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" id="bar-name" [ngxScrollTo]="'#instructor'">Instructor</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" id="bar-name" [ngxScrollTo]="'#how-to-apply'">How to apply</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" id="bar-name" [ngxScrollTo]="'#faq'">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</body>
